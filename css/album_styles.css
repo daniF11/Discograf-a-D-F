@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #AAB7B8;
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
+    
+}
+
+.main-album-container{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.encabezado-mostrar-album{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-caratula{
+    width: 250px;
+    height: 250px;
+    box-shadow: 4px 3px 6px 1px #ff6600;
+}
+
+.descripcion{
+    margin-left: 40px;
+}
+
+.descripcion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .descripcion li {
+    margin-bottom: 12px;
+  }
+  
+  .descripcion a {
+    text-decoration: none;
+  }
+
+  .link-lista{
+    color: #fff;
+  }
+
+.contenido-canciones{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reproducir{
+    height: 30px;
+}
+
+td{
+    padding: 5px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .redes-sociales a {
+    margin-right: 10px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .redes-sociales img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .pagina-web a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .pagina-web a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    .img-caratula {
+      width: 100%;
+      height: auto;
+    }
+  
+    .descripcion {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .descripcion ul {
+      text-align: center;
+    }
+  
+    .descripcion li {
+      margin-bottom: 10px;
+    }
+  
+    .reproducir {
+      height: 25px;
+    }
+  
+    td {
+      padding: 3px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .img-caratula {
+      width: 100%;
+      height: auto;
+    }
+  
+    .descripcion {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .descripcion ul {
+      text-align: center;
+    }
+  
+    .descripcion li {
+      margin-bottom: 8px;
+    }
+  
+    .reproducir {
+      height: 20px;
+    }
+  
+    td {
+      padding: 2px;
+    }
+  }
